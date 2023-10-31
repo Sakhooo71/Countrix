@@ -1,10 +1,11 @@
-import React from 'react'  // librairie
-import ReactDOM from 'react-dom/client'  // Librairie
-import App from './App.jsx'   /*Composant (Component)*/
-import './index.css'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App.jsx';
+import './index.css';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
+ReactDOM.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>,
-)
+  document.getElementById('root')
+);
